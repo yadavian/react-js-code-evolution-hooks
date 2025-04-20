@@ -10,9 +10,7 @@ const UseStateHook = () => {
             setCounter(prevCount => prevCount + 1)
         }
     }
-
     const [name, setname] = useState({ fn: '', ln: '' });
-
     const [items, setitems] = useState([])
 
     const addItems = () => {
